@@ -1,3 +1,6 @@
+// Issue #2: GET /books route
+// Returns all books from cse341-books-db.books collection
+
 import { getAllBooks, getBookById } from '../models/books.js';
 
 const getBooksHandler = async (req, res) => {
