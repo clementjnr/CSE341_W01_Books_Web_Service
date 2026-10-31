@@ -1,3 +1,6 @@
+// Issue #1 MongoDB Atlas connection
+// This file is responsible for connecting to the MongoDB Atlas database using the connection string and database name provided in the environment variables.
+
 import { MongoClient } from 'mongodb';
 
 let client;
