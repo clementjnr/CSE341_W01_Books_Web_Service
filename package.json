@@ -1,0 +1,19 @@
+{
+  "name": "cse341-w01-books-web-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CSE 341 Week 01 Books API using Express and MongoDB Atlas",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20.6.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.21.0"
+  }
+}
