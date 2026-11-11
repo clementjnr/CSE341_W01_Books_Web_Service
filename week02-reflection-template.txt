@@ -1,0 +1,25 @@
+# Week 02 Reflection
+
+## Links
+
+1. Walk-through video link:
+2. Deployed Render api-docs URL:
+3. Pull Requests (merged):
+   - Books PR:
+   - Authors PR:
+4. GitHub Issues (closed):
+   - Books Issue:
+   - Authors Issue:
+
+## Plan vs. Implementation
+
+5. Which part of the work took more or less time than expected? Why?
+Answer:
+
+6. How did Swagger help you in your work this week?
+Answer:
+
+## Week 03 Improvement
+
+7. What is one specific habit or process you will apply next week?
+Answer:

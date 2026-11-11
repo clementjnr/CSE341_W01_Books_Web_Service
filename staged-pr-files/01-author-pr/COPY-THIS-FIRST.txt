@@ -1,0 +1,9 @@
+AUTHOR PR ONLY
+Copy these files into your existing project while on branch implement-author-api:
+- package.json (updated)
+- app.js (updated)
+- src/swagger.js (new)
+- src/models/authors.js (new)
+- src/controllers/authors.js (new)
+- src/router.js (updated: preserves Week 01 GET book routes and adds author CRUD routes)
+Then run npm install and test author routes in /api-docs. Do NOT copy the 02-book-pr files until the author PR is merged.
