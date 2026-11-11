@@ -1,6 +1,3 @@
-// Issue #1 MongoDB Atlas connection
-// This file is responsible for connecting to the MongoDB Atlas database using the connection string and database name provided in the environment variables.
-
 import { MongoClient } from 'mongodb';
 
 let client;
@@ -13,7 +10,6 @@ const connectToDb = async () => {
   if (!connectionString) {
     throw new Error('MONGODB_URI is required. Add it to your local .env file.');
   }
-
   if (!databaseName) {
     throw new Error('MONGODB_DB_NAME is required. Add it to your local .env file.');
   }
@@ -22,7 +18,6 @@ const connectToDb = async () => {
   await client.connect();
   database = client.db(databaseName);
   console.log(`Connected to MongoDB database: ${databaseName}`);
-
   return database;
 };
 
@@ -30,7 +25,6 @@ const getDb = () => {
   if (!database) {
     throw new Error('Database is not initialized. Call connectToDb first.');
   }
-
   return database;
 };
 

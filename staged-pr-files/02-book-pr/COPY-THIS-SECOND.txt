@@ -1,0 +1,6 @@
+BOOK PR ONLY — AFTER AUTHOR PR IS MERGED
+On a new branch update-book-api, copy these three files over the matching files in your project:
+- src/models/books.js (updated with authorId and book CRUD)
+- src/controllers/books.js (updated with book POST/PUT/DELETE)
+- src/router.js (updated with all book CRUD routes and Swagger docs; keeps author routes)
+Then test every book route and re-test at least one author route.
